@@ -22,6 +22,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css" />
+    <!-- Add Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
     <header class="site-header">
@@ -53,7 +55,8 @@
                     clean UI, and reliable engineering. Passionate about web development, data, and teaching.
                 </p>
                 <div class="actions">
-                    <a class="btn primary" href="mailto:daniel.chali@example.com">Email Me</a>
+                    <!-- Update email to your address -->
+                    <a class="btn primary" href="mailto:iamdanielchali@gmail.com">Email Me</a>
                     <a class="btn" href="assets/resume.pdf" target="_blank" rel="noopener">Resume</a>
                     <a class="btn" href="https://github.com/iamdanielchali" target="_blank" rel="noopener">GitHub</a>
                     <a class="btn" href="https://www.linkedin.com/in/danielchali" target="_blank" rel="noopener">LinkedIn</a>
@@ -74,18 +77,18 @@
         <section id="projects" class="section container">
             <h2 class="section-title" data-animate>Featured Projects</h2>
             <div class="grid">
-                <!-- Project Card 1 -->
+                <!-- Insert CampusCare project card -->
                 <article class="card" data-animate>
-                    <img class="card-cover" src="assets/projects/edu-portal.png" alt="Edu portal project cover (placeholder)" />
+                    <img class="card-cover" src="assets/projects/campuscare.png" alt="CampusCare project cover (placeholder)" />
                     <div class="card-body">
-                        <h3 class="card-title">Campus Edu Portal</h3>
+                        <h3 class="card-title">CampusCare</h3>
                         <p class="card-text">
-                            A responsive web portal for students and lecturers to share resources, assignments, and announcements.
+                            A smart reporting platform for storing and tracking student maintenance and discipline cases across campus.
                         </p>
                         <ul class="tags">
-                            <li>React</li>
-                            <li>Node</li>
-                            <li>PostgreSQL</li>
+                            <li>MERN</li>
+                            <li>Analytics</li>
+                            <li>Accessibility</li>
                         </ul>
                         <div class="card-actions">
                             <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
@@ -192,6 +195,8 @@
                         <li>CSS3</li>
                         <li>JavaScript (ES6+)</li>
                         <li>React</li>
+                        <!-- Add mobile app framework -->
+                        <li>React Native</li>
                         <li>Responsive Design</li>
                         <li>Accessibility</li>
                     </ul>
@@ -204,6 +209,9 @@
                         <li>REST APIs</li>
                         <li>PostgreSQL</li>
                         <li>Firebase</li>
+                        <!-- Add MERN stack elements and Python -->
+                        <li>MongoDB</li>
+                        <li>Python</li>
                     </ul>
                 </div>
                 <div class="skills-group" data-animate>
@@ -212,6 +220,10 @@
                         <li>Git & GitHub</li>
                         <li>VS Code</li>
                         <li>Figma</li>
+                        <!-- Add AI, Robotics, Graphics Design -->
+                        <li>AI/ML</li>
+                        <li>Robotics</li>
+                        <li>Graphic Design (designed KMU graduation gowns)</li>
                         <li>Teaching & Mentoring</li>
                     </ul>
                 </div>
@@ -224,8 +236,9 @@
             <div class="contact">
                 <p>Want to collaborate or say hello?</p>
                 <div class="actions">
-                    <a class="btn primary" href="mailto:daniel.chali@example.com">daniel.chali@example.com</a>
-                    <button class="btn" id="copy-email" data-email="daniel.chali@example.com">Copy Email</button>
+                    <!-- Update email to your address -->
+                    <a class="btn primary" href="mailto:iamdanielchali@gmail.com">iamdanielchali@gmail.com</a>
+                    <button class="btn" id="copy-email" data-email="iamdanielchali@gmail.com">Copy Email</button>
                 </div>
             </div>
         </section>
@@ -234,10 +247,29 @@
     <footer class="site-footer">
         <div class="container footer-inner">
             <p class="muted">© <span id="year"></span> Daniel Chali. Built with HTML, CSS, and JavaScript.</p>
+            <!-- Replace socials with icon-enhanced links -->
             <div class="socials">
-                <a href="https://github.com/iamdanielchali" target="_blank" rel="noopener">GitHub</a>
-                <a href="https://www.linkedin.com/in/danielchali" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="#" target="_blank" rel="noopener">Twitter</a>
+                <a href="https://github.com/iamdanielchali" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/danielchali" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+                </a>
+                <a href="https://fb.me/iamdanielchali" target="_blank" rel="noopener" aria-label="Facebook">
+                    <i class="fab fa-facebook" aria-hidden="true"></i> Facebook
+                </a>
+                <a href="https://www.tiktok.com/@iamdanielchali" target="_blank" rel="noopener" aria-label="TikTok">
+                    <i class="fab fa-tiktok" aria-hidden="true"></i> TikTok
+                </a>
+                <a href="https://www.instagram.com/iamdanielchali" target="_blank" rel="noopener" aria-label="Instagram">
+                    <i class="fab fa-instagram" aria-hidden="true"></i> Instagram
+                </a>
+                <a href="https://www.youtube.com/@iamdanielchali" target="_blank" rel="noopener" aria-label="YouTube">
+                    <i class="fab fa-youtube" aria-hidden="true"></i> YouTube
+                </a>
+                <a href="mailto:iamdanielchali@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope" aria-hidden="true"></i> Email
+                </a>
             </div>
         </div>
     </footer>
