@@ -293,3 +293,6 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* LinkedIn badge container */
+.linkedin-badge { margin-top: 16px; display: flex; justify-content: center; align-items: center; }
