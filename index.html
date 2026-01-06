@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Daniel Chali • Computer Scientist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio of Daniel Chali — third-year Bachelor's in ICT with Education at Kapasa Makasa University, Chinsali, Zambia." />
+    <meta name="author" content="Daniel Chali" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Daniel Chali • Tech Portfolio" />
+    <meta property="og:description" content="Third-year Bachelor's in ICT with Education @ Kapasa Makasa University. Projects, experience, and skills." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/preview.png" />
+    <meta property="og:url" content="https://your-domain.example.com" />
+
+    <!-- Favicon (optional) -->
+    <link rel="icon" href="assets/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#home" aria-label="Go to top">DC</a>
+            <nav class="nav">
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </div>
+    </header>
+
+    <main id="home">
+        <!-- Hero -->
+        <section class="hero container" data-animate>
+            <div class="hero-content">
+                <h1 class="headline">
+                    Hi, I'm <span class="gradient-text">Daniel Chali</span>.
+                </h1>
+                <p class="subtitle">
+                    Third-year Bachelor's in ICT with Education at Kapasa Makasa University, Chinsali, Zambia.
+                </p>
+                <p class="summary">
+                    I build practical educational technology and software tools—focused on accessible learning,
+                    clean UI, and reliable engineering. Passionate about web development, data, and teaching.
+                </p>
+                <div class="actions">
+                    <a class="btn primary" href="mailto:daniel.chali@example.com">Email Me</a>
+                    <a class="btn" href="assets/resume.pdf" target="_blank" rel="noopener">Resume</a>
+                    <a class="btn" href="https://github.com/iamdanielchali" target="_blank" rel="noopener">GitHub</a>
+                    <a class="btn" href="https://www.linkedin.com/in/danielchali" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+                <ul class="tech-stack">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section container">
+            <h2 class="section-title" data-animate>Featured Projects</h2>
+            <div class="grid">
+                <!-- Project Card 1 -->
+                <article class="card" data-animate>
+                    <img class="card-cover" src="assets/projects/edu-portal.png" alt="Edu portal project cover (placeholder)" />
+                    <div class="card-body">
+                        <h3 class="card-title">Campus Edu Portal</h3>
+                        <p class="card-text">
+                            A responsive web portal for students and lecturers to share resources, assignments, and announcements.
+                        </p>
+                        <ul class="tags">
+                            <li>React</li>
+                            <li>Node</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                        <div class="card-actions">
+                            <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+                            <a class="btn small" href="#" target="_blank" rel="noopener">Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="card" data-animate>
+                    <img class="card-cover" src="assets/projects/attendance-app.png" alt="Smart attendance app cover (placeholder)" />
+                    <div class="card-body">
+                        <h3 class="card-title">Smart Attendance</h3>
+                        <p class="card-text">
+                            Attendance tracking app with QR codes and analytics for classroom engagement.
+                        </p>
+                        <ul class="tags">
+                            <li>PWA</li>
+                            <li>Firebase</li>
+                            <li>Charts</li>
+                        </ul>
+                        <div class="card-actions">
+                            <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+                            <a class="btn small" href="#" target="_blank" rel="noopener">Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="card" data-animate>
+                    <img class="card-cover" src="assets/projects/learning-tools.png" alt="Learning tools project cover (placeholder)" />
+                    <div class="card-body">
+                        <h3 class="card-title">Learning Tools Suite</h3>
+                        <p class="card-text">
+                            A set of small tools—quiz generator, flashcards, and note organizer—aimed at improving study workflows.
+                        </p>
+                        <ul class="tags">
+                            <li>Vanilla JS</li>
+                            <li>IndexedDB</li>
+                            <li>Accessibility</li>
+                        </ul>
+                        <div class="card-actions">
+                            <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+                            <a class="btn small" href="#" target="_blank" rel="noopener">Code</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="section container">
+            <h2 class="section-title" data-animate>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Peer Tutor • Kapasa Makasa University</h3>
+                        <p class="muted">2024 — Present • Chinsali, Zambia</p>
+                        <p>Guided fellow students in foundational programming, web development, and data basics; created helpful study aids and demos.</p>
+                        <ul class="tags">
+                            <li>Teaching</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Student Projects • ICT with Education</h3>
+                        <p class="muted">2023 — Present</p>
+                        <p>Built practical coursework projects focusing on accessibility, UI/UX, and classroom-focused tools.</p>
+                        <ul class="tags">
+                            <li>React</li>
+                            <li>Node</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section container">
+            <h2 class="section-title" data-animate>Education</h2>
+            <div class="edu">
+                <div class="edu-item" data-animate>
+                    <h3>Kapasa Makasa University</h3>
+                    <p class="muted">Bachelor's Degree in ICT with Education • Third Year</p>
+                    <p>Coursework: Web Development, Databases, Data Structures & Algorithms, Educational Technology, Pedagogy.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section container">
+            <h2 class="section-title" data-animate>Skills</h2>
+            <div class="skills">
+                <div class="skills-group" data-animate>
+                    <h3>Frontend</h3>
+                    <ul class="pill-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React</li>
+                        <li>Responsive Design</li>
+                        <li>Accessibility</li>
+                    </ul>
+                </div>
+                <div class="skills-group" data-animate>
+                    <h3>Backend</h3>
+                    <ul class="pill-list">
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>REST APIs</li>
+                        <li>PostgreSQL</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+                <div class="skills-group" data-animate>
+                    <h3>Tools & Other</h3>
+                    <ul class="pill-list">
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                        <li>Teaching & Mentoring</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section container">
+            <h2 class="section-title" data-animate>Contact</h2>
+            <div class="contact">
+                <p>Want to collaborate or say hello?</p>
+                <div class="actions">
+                    <a class="btn primary" href="mailto:daniel.chali@example.com">daniel.chali@example.com</a>
+                    <button class="btn" id="copy-email" data-email="daniel.chali@example.com">Copy Email</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="muted">© <span id="year"></span> Daniel Chali. Built with HTML, CSS, and JavaScript.</p>
+            <div class="socials">
+                <a href="https://github.com/iamdanielchali" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.linkedin.com/in/danielchali" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="#" target="_blank" rel="noopener">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
